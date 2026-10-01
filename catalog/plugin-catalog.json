@@ -1,0 +1,42 @@
+{
+  "catalogVersion": 1,
+  "plugins": [
+    {
+      "id": "forge-avatar",
+      "name": "Forge Avatar",
+      "publisher": "Stream Forge",
+      "official": true,
+      "channel": "stable",
+      "version": "0.5.1",
+      "description": "Audio-reactive animated character plugin with talking frames, scale-to-sound reaction, automatic blinking and optional manual expression images.",
+      "activation": {
+        "mode": "package-code",
+        "codeSha256": "75b47af84e764f6c7a1d3418f3879a966c6527ed483621352650501207062d0d",
+        "persistentPerProfile": true,
+        "security": "discovery-gate-not-security"
+      },
+      "compatibleStreamForge": {
+        "exact": [
+          "1.5.1-alpha.9.4.248",
+          "1.5.1-alpha.9.4.249",
+          "1.5.1-alpha.9.4.250"
+        ]
+      },
+      "release": {
+        "tag": "forge-avatar-v0.5.1",
+        "packageAsset": "Stream-Forge-Forge-Avatar-Plugin-v0.5.1.zip",
+        "sha256Asset": "Stream-Forge-Forge-Avatar-Plugin-v0.5.1.zip.sha256",
+        "packageSha256": "970703053a04b95a6a5efa873d8cbe4f533304f3d9e9c61ba9dd9cdca0ec929e"
+      },
+      "capabilities": [
+        "diagnostics.observe-mic-meter",
+        "scenes.sources",
+        "ui.panels",
+        "plugins.activation",
+        "storage.indexeddb"
+      ],
+      "defaultEnabled": false,
+      "removable": true
+    }
+  ]
+}

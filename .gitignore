@@ -1,0 +1,20 @@
+# Dependencies / transient files
+node_modules/
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Packaged plugin binaries belong in GitHub Releases, not Git history
+*.zip
+
+# Credentials / local secrets
+.env
+.env.*
+secrets/
+credentials/
+
+# Local editor / OS files
+.vscode/
+.idea/
